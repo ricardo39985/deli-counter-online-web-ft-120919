@@ -9,13 +9,13 @@ def line(customers)
  end
 end
 
-def take_a_number(new_guests, line)
+def take_a_number(new_guests, katz_deli)
   result = []
   case line.length
   when 0
     result.push(new_guests)
   else
-    result.push(line)
+    result.push(katz_deli)
     result.push(new_guests)
   end
   result

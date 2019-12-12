@@ -18,5 +18,4 @@ def take_a_number(new_guests, katz_deli)
     result.push(katz_deli)
     result.push(new_guests)
   end
-  puts result
 end

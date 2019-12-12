@@ -13,7 +13,7 @@ def take_a_number(new_guests, line)
   result = []
   case line.length
   when 0
-    line.push[new_guests]
+    result.push(new_guests)
   end
-  line
+  result
 end

@@ -9,6 +9,7 @@ def line(customers)
  end
 end
 
-def take_a_number(line)
-  pp line
+def take_a_number(o, l)
+  pp o
+  pp l
 end

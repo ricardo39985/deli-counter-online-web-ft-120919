@@ -14,6 +14,9 @@ def take_a_number(new_guests, line)
   case line.length
   when 0
     result.push(new_guests)
+  else
+    result.push(line)
+    result.push(new_guests)
   end
   result
 end

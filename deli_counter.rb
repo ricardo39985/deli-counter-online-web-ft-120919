@@ -11,7 +11,7 @@ end
 
 def take_a_number(new_guests, katz_deli)
   result = []
-  case line.length
+  case katz_deli.length
   when 0
     result.push(new_guests)
   else

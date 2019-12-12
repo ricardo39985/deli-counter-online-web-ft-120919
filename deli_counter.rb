@@ -9,7 +9,11 @@ def line(customers)
  end
 end
 
-def take_a_number(o, l)
-  pp o
-  pp l
+def take_a_number(new_guests, line)
+  result = []
+  case line.length
+  when 0
+    result.push[new_guests]
+  end
+  result
 end

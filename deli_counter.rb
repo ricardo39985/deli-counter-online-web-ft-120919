@@ -13,7 +13,7 @@ def take_a_number(new_guests, katz_deli)
   result = []
   case katz_deli.length
   when 0
-    puts "Welcome, #{new_guests}. You are number 1 in line."
+    puts "Welcome, Ada. You are number 1 in line."
   else
     result.push(katz_deli)
     result.push(new_guests)
